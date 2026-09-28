@@ -1,0 +1,13 @@
+{
+  "gain": 31.012810772903983,
+  "angles": {
+    "phi1": 10,
+    "theta1": 180,
+    "phi2": 359,
+    "theta2": 60,
+    "phi3": 180,
+    "theta3": 205
+  },
+  "evaluations": 2500,
+  "url": "/antenna/simulate?phi1=10&theta1=180&phi2=359&theta2=60&phi3=180&theta3=205"
+}
