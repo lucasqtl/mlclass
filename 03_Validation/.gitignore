@@ -1,0 +1,6 @@
+.ml_packages/
+__pycache__/
+*.py[cod]
+resposta_servidor.txt
+.pptx_build/
+.chart-data-*/

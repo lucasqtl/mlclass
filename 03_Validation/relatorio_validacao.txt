@@ -1,0 +1,24 @@
+RELATORIO DE VALIDACAO - ATIVIDADE 03
+
+Modelo: SVM com kernel RBF (C=2.5; gamma=0.04).
+Pre-processamento: mediana + padronizacao dos numericos e one-hot para sex.
+Atributos derivados: volume, densidade, massa de carne e proporcoes de peso.
+Metodo: validacao cruzada estratificada com 5 dobras (semente 20260930).
+Acuracia out-of-fold: 67.4330%
+Acuracia balanceada out-of-fold: 67.2215%
+F1 macro out-of-fold: 67.3730%
+
+Distribuicao real das classes:
+type
+1    1078
+2    1003
+3    1051
+
+Matriz de confusao (linhas = real; colunas = previsto):
+        previsto_1  previsto_2  previsto_3
+real_1         809         228          41
+real_2         175         580         248
+real_3          62         266         723
+
+As metricas sao de previsoes feitas em dobras que nao participaram do treino.
+O resultado do servidor pode variar, pois ele avalia uma base externa separada.
